@@ -1,0 +1,75 @@
+body{
+	background-color: skyblue;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin: 10px;
+	padding: 10px;
+	font-weight: 400;
+}
+
+h1{
+	text-align: center
+	font-family: Arial, sans-serif;
+	font-size: 50px;
+	color: white;
+}
+
+p{
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color:white;
+	text-decoration: none;
+	font-weight:500;
+	text-align: center;
+}
+
+p:hover{
+	color: #0154b5;
+}
+
+a{
+	text-decoration: none;
+}
+input {
+    width: 200px;
+    padding: 10px 10px;
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 14px;
+    line-height: 3;
+}
+img{
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+	padding: 5px;
+	border-style: solid;
+	border-color: blue;
+}
+.segment{
+	overflow: hidden;
+}
+
+.nav{
+	
+	text-align: center;
+}
+
+#searcbox{
+	text-align: center;
+	font-family: Arial, sans-serif;
+	padding: 8px 8px;
+	margin: 4px;
+	border: 1px;
+	display:inline-block;
+}
+.buttonsearch{
+	cursor: pointer;
+	height:50px;
+  width:80px;
+	background-color: red;
+	border-radius: 10px;
+	color: white;
+	font-size: 14px;
+}
